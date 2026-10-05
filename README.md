@@ -310,8 +310,9 @@ on a given Docker engine at a time.
 
 ## Portfolio workflow
 
-Use [docs/PORTFOLIO.md](docs/PORTFOLIO.md) and fill in
-[docs/INCIDENT-REPORT-TEMPLATE.md](docs/INCIDENT-REPORT-TEMPLATE.md).
+Read the completed [incident investigation](docs/INCIDENT-REPORT.md) for the
+verified baseline run. Use [docs/PORTFOLIO.md](docs/PORTFOLIO.md) and the reusable
+[incident report template](docs/INCIDENT-REPORT-TEMPLATE.md) for future exercises.
 Publish configuration, rule logic, your explanation, sanitized results and
 screenshots. Demonstrate both a useful detection and a false-positive limitation.
 Only claim tests you actually ran. Raw test evidence is ignored by Git so you can

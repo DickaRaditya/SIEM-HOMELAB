@@ -3,6 +3,10 @@
 The valuable part is your evidence and reasoning: explain the data path, prove
 the detections worked, identify limitations, and show how you would improve them.
 
+The completed [baseline incident report](INCIDENT-REPORT.md) includes the actual
+alert timeline, correlation analysis, file-hash verification, disposition and
+proposed follow-up tests for run `20261005T153655Z-8ac00d3e`.
+
 ## Recommended repository presentation
 
 1. Write a short project objective and explain why you chose Wazuh.
@@ -10,7 +14,7 @@ the detections worked, identify limitations, and show how you would improve them
 3. Run `python scripts/lab.py test` and read the generated report.
 4. Capture the screenshots below with the same run ID and time range.
 5. Copy only reviewed evidence into `evidence/published/`.
-6. Fill out an investigation using `INCIDENT-REPORT-TEMPLATE.md`.
+6. Read `INCIDENT-REPORT.md`; use `INCIDENT-REPORT-TEMPLATE.md` for your next run.
 7. Describe one improvement you implemented, then rerun the tests and compare results.
 
 Do not publish `.env`, `runtime`, private keys, Docker inspect/config output or
