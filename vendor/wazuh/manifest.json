@@ -1,0 +1,16 @@
+{
+  "release": "4.14.8",
+  "commit": "5f5951b795578cb0844f4601b66df890860c20f3",
+  "sha256": {
+    "LICENSE": "edfece046050f6f3df3d1020b35a99ea9f67ee0af4b38c5693988049bb2d6499",
+    "single-node/docker-compose.yml": "6d93f31e3a87eeff8bf906ae3e51de5f5814d31f8d38e3ba7cc52c98077635e2",
+    "single-node/generate-indexer-certs.yml": "038523da7ff4c93e51aaff8e46f13121c79d45e7fcbb50f2f1cb7ec6c115249d",
+    "single-node/config/certs.yml": "01dfd585599e9b8d56c7cafd874eae7ff27ee538af250fc13d55afd1f80abd68",
+    "single-node/config/wazuh_cluster/wazuh_manager.conf": "b137a003c617aee4a980e9eb132ced34c746a7807089a67a107dbbae74518fce",
+    "single-node/config/wazuh_indexer/wazuh.indexer.yml": "8273837e2047a6a02a05c2ac3802c7d19e578a454e6250e0e1b5e2a8693bf295",
+    "single-node/config/wazuh_indexer/internal_users.yml": "51aa50ddb9783a711b923f5fd32010a11fa6a5fa23fb140fd47a3ae3e0c82b2c",
+    "single-node/config/wazuh_dashboard/opensearch_dashboards.yml": "3c25160c3e71d399cb1227b0de73f27bb8322f5b2740a89ea48e5fa4241ee8db",
+    "single-node/config/wazuh_dashboard/wazuh.yml": "250483503e33f7290155316072d89830d82be375843ba91dbc2cfbfa62877aec",
+    "wazuh-agent/config/wazuh-agent-conf": "bae83cd82af1e503e1ba5b7fbe0d414367431dc8d70ca7f05d85808a96513d6f"
+  }
+}

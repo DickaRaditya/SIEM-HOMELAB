@@ -1,0 +1,36 @@
+{
+  "run_id": "20261005T153655Z-8ac00d3e",
+  "version": "4.14.8",
+  "started_at": "2026-10-05T15:36:55.763436+00:00",
+  "finished_at": "2026-10-05T15:38:15.622554+00:00",
+  "passed": true,
+  "checks": {
+    "endpoint connected": true,
+    "Wazuh rule engine tests": true,
+    "synthetic rule 100101 indexed": true,
+    "synthetic rule 100102 indexed": true,
+    "synthetic rule 100103 indexed": true,
+    "synthetic rule 100104 indexed": true,
+    "synthetic rule 100105 indexed": true,
+    "real FIM create rule 554 indexed": true,
+    "real FIM modify rule 550 indexed": true,
+    "real FIM delete rule 553 indexed": true,
+    "all expected alerts present in final evidence": true,
+    "benign controls produced no indexed alert": true,
+    "indexer cluster not red": true
+  },
+  "error": null,
+  "observed_rule_ids": [
+    "100101",
+    "100102",
+    "100103",
+    "100104",
+    "100105",
+    "550",
+    "553",
+    "554"
+  ],
+  "alert_count": 14,
+  "synthetic_events": 14,
+  "endpoint": "lab-linux"
+}

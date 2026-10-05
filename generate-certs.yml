@@ -1,0 +1,9 @@
+name: siem-homelab-certs
+services:
+  generator:
+    image: wazuh/wazuh-certs-generator:0.0.4
+    environment:
+      CERT_TOOL_VERSION: "4.14"
+    volumes:
+      - ./runtime/certs:/certificates
+      - ./vendor/wazuh/single-node/config/certs.yml:/config/certs.yml:ro

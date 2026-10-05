@@ -1,0 +1,769 @@
+[
+  {
+    "agent": {
+      "ip": "172.20.0.4",
+      "name": "lab-linux",
+      "id": "001"
+    },
+    "manager": {
+      "name": "wazuh.manager"
+    },
+    "data": {
+      "synthetic": "true",
+      "lab_source_ip": "192.0.2.10",
+      "sequence": "1",
+      "event_type": "auth_failure",
+      "integration": "homelab",
+      "lab_run_id": "20261005T153655Z-8ac00d3e",
+      "lab_user": "student",
+      "correlation_key": "20261005T153655Z-8ac00d3e:192.0.2.10",
+      "event_time": "2026-10-05T15:36:55.763458+00:00"
+    },
+    "rule": {
+      "firedtimes": 8,
+      "mail": false,
+      "level": 5,
+      "description": "LAB: Failed login for student from 192.0.2.10.",
+      "groups": [
+        "homelab",
+        "authentication_failed"
+      ],
+      "id": "100101"
+    },
+    "decoder": {
+      "name": "json"
+    },
+    "full_log": "{\"integration\":\"homelab\",\"lab_run_id\":\"20261005T153655Z-8ac00d3e\",\"synthetic\":true,\"lab_source_ip\":\"192.0.2.10\",\"lab_user\":\"student\",\"event_time\":\"2026-10-05T15:36:55.763458+00:00\",\"correlation_key\":\"20261005T153655Z-8ac00d3e:192.0.2.10\",\"event_type\":\"auth_failure\",\"sequence\":1}",
+    "input": {
+      "type": "log"
+    },
+    "@timestamp": "2026-10-05T15:37:11.574Z",
+    "location": "/lab/logs/events.json",
+    "id": "1791214631.711974",
+    "timestamp": "2026-10-05T15:37:11.574+0000"
+  },
+  {
+    "agent": {
+      "ip": "172.20.0.4",
+      "name": "lab-linux",
+      "id": "001"
+    },
+    "manager": {
+      "name": "wazuh.manager"
+    },
+    "data": {
+      "synthetic": "true",
+      "lab_source_ip": "192.0.2.10",
+      "sequence": "3",
+      "event_type": "auth_failure",
+      "integration": "homelab",
+      "lab_run_id": "20261005T153655Z-8ac00d3e",
+      "lab_user": "student",
+      "correlation_key": "20261005T153655Z-8ac00d3e:192.0.2.10",
+      "event_time": "2026-10-05T15:36:55.763458+00:00"
+    },
+    "rule": {
+      "firedtimes": 11,
+      "mail": false,
+      "level": 5,
+      "description": "LAB: Failed login for student from 192.0.2.10.",
+      "groups": [
+        "homelab",
+        "authentication_failed"
+      ],
+      "id": "100101"
+    },
+    "decoder": {
+      "name": "json"
+    },
+    "full_log": "{\"integration\":\"homelab\",\"lab_run_id\":\"20261005T153655Z-8ac00d3e\",\"synthetic\":true,\"lab_source_ip\":\"192.0.2.10\",\"lab_user\":\"student\",\"event_time\":\"2026-10-05T15:36:55.763458+00:00\",\"correlation_key\":\"20261005T153655Z-8ac00d3e:192.0.2.10\",\"event_type\":\"auth_failure\",\"sequence\":3}",
+    "input": {
+      "type": "log"
+    },
+    "@timestamp": "2026-10-05T15:37:11.586Z",
+    "location": "/lab/logs/events.json",
+    "id": "1791214631.714170",
+    "timestamp": "2026-10-05T15:37:11.586+0000"
+  },
+  {
+    "agent": {
+      "ip": "172.20.0.4",
+      "name": "lab-linux",
+      "id": "001"
+    },
+    "manager": {
+      "name": "wazuh.manager"
+    },
+    "data": {
+      "synthetic": "true",
+      "lab_source_ip": "192.0.2.10",
+      "sequence": "2",
+      "event_type": "auth_failure",
+      "integration": "homelab",
+      "lab_run_id": "20261005T153655Z-8ac00d3e",
+      "lab_user": "student",
+      "correlation_key": "20261005T153655Z-8ac00d3e:192.0.2.10",
+      "event_time": "2026-10-05T15:36:55.763458+00:00"
+    },
+    "rule": {
+      "firedtimes": 10,
+      "mail": false,
+      "level": 5,
+      "description": "LAB: Failed login for student from 192.0.2.10.",
+      "groups": [
+        "homelab",
+        "authentication_failed"
+      ],
+      "id": "100101"
+    },
+    "decoder": {
+      "name": "json"
+    },
+    "full_log": "{\"integration\":\"homelab\",\"lab_run_id\":\"20261005T153655Z-8ac00d3e\",\"synthetic\":true,\"lab_source_ip\":\"192.0.2.10\",\"lab_user\":\"student\",\"event_time\":\"2026-10-05T15:36:55.763458+00:00\",\"correlation_key\":\"20261005T153655Z-8ac00d3e:192.0.2.10\",\"event_type\":\"auth_failure\",\"sequence\":2}",
+    "input": {
+      "type": "log"
+    },
+    "@timestamp": "2026-10-05T15:37:11.586Z",
+    "location": "/lab/logs/events.json",
+    "id": "1791214631.712706",
+    "timestamp": "2026-10-05T15:37:11.586+0000"
+  },
+  {
+    "agent": {
+      "ip": "172.20.0.4",
+      "name": "lab-linux",
+      "id": "001"
+    },
+    "previous_output": "{\"integration\":\"homelab\",\"lab_run_id\":\"20261005T153655Z-8ac00d3e\",\"synthetic\":true,\"lab_source_ip\":\"192.0.2.10\",\"lab_user\":\"student\",\"event_time\":\"2026-10-05T15:36:55.763458+00:00\",\"correlation_key\":\"20261005T153655Z-8ac00d3e:192.0.2.10\",\"event_type\":\"auth_failure\",\"sequence\":3}\n{\"integration\":\"homelab\",\"lab_run_id\":\"20261005T153655Z-8ac00d3e\",\"synthetic\":true,\"lab_source_ip\":\"192.0.2.10\",\"lab_user\":\"student\",\"event_time\":\"2026-10-05T15:36:55.763458+00:00\",\"correlation_key\":\"20261005T153655Z-8ac00d3e:192.0.2.10\",\"event_type\":\"auth_failure\",\"sequence\":6}\n{\"integration\":\"homelab\",\"lab_run_id\":\"20261005T153655Z-8ac00d3e\",\"synthetic\":true,\"lab_source_ip\":\"192.0.2.10\",\"lab_user\":\"student\",\"event_time\":\"2026-10-05T15:36:55.763458+00:00\",\"correlation_key\":\"20261005T153655Z-8ac00d3e:192.0.2.10\",\"event_type\":\"auth_failure\",\"sequence\":2}\n{\"integration\":\"homelab\",\"lab_run_id\":\"20261005T153655Z-8ac00d3e\",\"synthetic\":true,\"lab_source_ip\":\"192.0.2.10\",\"lab_user\":\"student\",\"event_time\":\"2026-10-05T15:36:55.763458+00:00\",\"correlation_key\":\"20261005T153655Z-8ac00d3e:192.0.2.10\",\"event_type\":\"auth_failure\",\"sequence\":1}",
+    "manager": {
+      "name": "wazuh.manager"
+    },
+    "data": {
+      "synthetic": "true",
+      "lab_source_ip": "192.0.2.10",
+      "sequence": "4",
+      "event_type": "auth_failure",
+      "integration": "homelab",
+      "lab_run_id": "20261005T153655Z-8ac00d3e",
+      "lab_user": "student",
+      "correlation_key": "20261005T153655Z-8ac00d3e:192.0.2.10",
+      "event_time": "2026-10-05T15:36:55.763458+00:00"
+    },
+    "rule": {
+      "firedtimes": 2,
+      "mail": false,
+      "level": 10,
+      "description": "LAB: Repeated failed logins from 192.0.2.10 in one test run.",
+      "groups": [
+        "homelab",
+        "authentication_failures"
+      ],
+      "mitre": {
+        "technique": [
+          "Password Guessing"
+        ],
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ]
+      },
+      "id": "100102",
+      "frequency": 5
+    },
+    "decoder": {
+      "name": "json"
+    },
+    "full_log": "{\"integration\":\"homelab\",\"lab_run_id\":\"20261005T153655Z-8ac00d3e\",\"synthetic\":true,\"lab_source_ip\":\"192.0.2.10\",\"lab_user\":\"student\",\"event_time\":\"2026-10-05T15:36:55.763458+00:00\",\"correlation_key\":\"20261005T153655Z-8ac00d3e:192.0.2.10\",\"event_type\":\"auth_failure\",\"sequence\":4}",
+    "input": {
+      "type": "log"
+    },
+    "@timestamp": "2026-10-05T15:37:11.586Z",
+    "location": "/lab/logs/events.json",
+    "id": "1791214631.714902",
+    "timestamp": "2026-10-05T15:37:11.586+0000"
+  },
+  {
+    "agent": {
+      "ip": "172.20.0.4",
+      "name": "lab-linux",
+      "id": "001"
+    },
+    "manager": {
+      "name": "wazuh.manager"
+    },
+    "data": {
+      "synthetic": "true",
+      "lab_source_ip": "192.0.2.10",
+      "sequence": "6",
+      "event_type": "auth_failure",
+      "integration": "homelab",
+      "lab_run_id": "20261005T153655Z-8ac00d3e",
+      "lab_user": "student",
+      "correlation_key": "20261005T153655Z-8ac00d3e:192.0.2.10",
+      "event_time": "2026-10-05T15:36:55.763458+00:00"
+    },
+    "rule": {
+      "firedtimes": 9,
+      "mail": false,
+      "level": 5,
+      "description": "LAB: Failed login for student from 192.0.2.10.",
+      "groups": [
+        "homelab",
+        "authentication_failed"
+      ],
+      "id": "100101"
+    },
+    "decoder": {
+      "name": "json"
+    },
+    "full_log": "{\"integration\":\"homelab\",\"lab_run_id\":\"20261005T153655Z-8ac00d3e\",\"synthetic\":true,\"lab_source_ip\":\"192.0.2.10\",\"lab_user\":\"student\",\"event_time\":\"2026-10-05T15:36:55.763458+00:00\",\"correlation_key\":\"20261005T153655Z-8ac00d3e:192.0.2.10\",\"event_type\":\"auth_failure\",\"sequence\":6}",
+    "input": {
+      "type": "log"
+    },
+    "@timestamp": "2026-10-05T15:37:11.586Z",
+    "location": "/lab/logs/events.json",
+    "id": "1791214631.713438",
+    "timestamp": "2026-10-05T15:37:11.586+0000"
+  },
+  {
+    "agent": {
+      "ip": "172.20.0.4",
+      "name": "lab-linux",
+      "id": "001"
+    },
+    "manager": {
+      "name": "wazuh.manager"
+    },
+    "data": {
+      "synthetic": "true",
+      "lab_source_ip": "192.0.2.10",
+      "sequence": "5",
+      "event_type": "auth_failure",
+      "integration": "homelab",
+      "lab_run_id": "20261005T153655Z-8ac00d3e",
+      "lab_user": "student",
+      "correlation_key": "20261005T153655Z-8ac00d3e:192.0.2.10",
+      "event_time": "2026-10-05T15:36:55.763458+00:00"
+    },
+    "rule": {
+      "firedtimes": 12,
+      "mail": false,
+      "level": 5,
+      "description": "LAB: Failed login for student from 192.0.2.10.",
+      "groups": [
+        "homelab",
+        "authentication_failed"
+      ],
+      "id": "100101"
+    },
+    "decoder": {
+      "name": "json"
+    },
+    "full_log": "{\"integration\":\"homelab\",\"lab_run_id\":\"20261005T153655Z-8ac00d3e\",\"synthetic\":true,\"lab_source_ip\":\"192.0.2.10\",\"lab_user\":\"student\",\"event_time\":\"2026-10-05T15:36:55.763458+00:00\",\"correlation_key\":\"20261005T153655Z-8ac00d3e:192.0.2.10\",\"event_type\":\"auth_failure\",\"sequence\":5}",
+    "input": {
+      "type": "log"
+    },
+    "@timestamp": "2026-10-05T15:37:11.586Z",
+    "location": "/lab/logs/events.json",
+    "id": "1791214631.716771",
+    "timestamp": "2026-10-05T15:37:11.586+0000"
+  },
+  {
+    "agent": {
+      "ip": "172.20.0.4",
+      "name": "lab-linux",
+      "id": "001"
+    },
+    "manager": {
+      "name": "wazuh.manager"
+    },
+    "data": {
+      "synthetic": "true",
+      "lab_source_ip": "192.0.2.10",
+      "sequence": "7",
+      "event_type": "auth_failure",
+      "integration": "homelab",
+      "lab_run_id": "20261005T153655Z-8ac00d3e",
+      "lab_user": "student",
+      "correlation_key": "20261005T153655Z-8ac00d3e:192.0.2.10",
+      "event_time": "2026-10-05T15:36:55.763458+00:00"
+    },
+    "rule": {
+      "firedtimes": 13,
+      "mail": false,
+      "level": 5,
+      "description": "LAB: Failed login for student from 192.0.2.10.",
+      "groups": [
+        "homelab",
+        "authentication_failed"
+      ],
+      "id": "100101"
+    },
+    "decoder": {
+      "name": "json"
+    },
+    "full_log": "{\"integration\":\"homelab\",\"lab_run_id\":\"20261005T153655Z-8ac00d3e\",\"synthetic\":true,\"lab_source_ip\":\"192.0.2.10\",\"lab_user\":\"student\",\"event_time\":\"2026-10-05T15:36:55.763458+00:00\",\"correlation_key\":\"20261005T153655Z-8ac00d3e:192.0.2.10\",\"event_type\":\"auth_failure\",\"sequence\":7}",
+    "input": {
+      "type": "log"
+    },
+    "@timestamp": "2026-10-05T15:37:11.586Z",
+    "location": "/lab/logs/events.json",
+    "id": "1791214631.717503",
+    "timestamp": "2026-10-05T15:37:11.586+0000"
+  },
+  {
+    "agent": {
+      "ip": "172.20.0.4",
+      "name": "lab-linux",
+      "id": "001"
+    },
+    "manager": {
+      "name": "wazuh.manager"
+    },
+    "data": {
+      "synthetic": "true",
+      "lab_source_ip": "192.0.2.10",
+      "event_type": "web_request",
+      "lab_url": "/download?file=../../etc/passwd",
+      "integration": "homelab",
+      "lab_run_id": "20261005T153655Z-8ac00d3e",
+      "lab_user": "student",
+      "correlation_key": "20261005T153655Z-8ac00d3e:192.0.2.10",
+      "event_time": "2026-10-05T15:36:55.763458+00:00"
+    },
+    "rule": {
+      "firedtimes": 2,
+      "mail": false,
+      "level": 8,
+      "description": "LAB: Directory traversal pattern in a synthetic web request.",
+      "groups": [
+        "homelab",
+        "web"
+      ],
+      "id": "100105"
+    },
+    "decoder": {
+      "name": "json"
+    },
+    "full_log": "{\"integration\":\"homelab\",\"lab_run_id\":\"20261005T153655Z-8ac00d3e\",\"synthetic\":true,\"lab_source_ip\":\"192.0.2.10\",\"lab_user\":\"student\",\"event_time\":\"2026-10-05T15:36:55.763458+00:00\",\"correlation_key\":\"20261005T153655Z-8ac00d3e:192.0.2.10\",\"event_type\":\"web_request\",\"lab_url\":\"/download?file=../../etc/passwd\"}",
+    "input": {
+      "type": "log"
+    },
+    "@timestamp": "2026-10-05T15:37:11.598Z",
+    "location": "/lab/logs/events.json",
+    "id": "1791214631.718967",
+    "timestamp": "2026-10-05T15:37:11.598+0000"
+  },
+  {
+    "agent": {
+      "ip": "172.20.0.4",
+      "name": "lab-linux",
+      "id": "001"
+    },
+    "manager": {
+      "name": "wazuh.manager"
+    },
+    "data": {
+      "synthetic": "true",
+      "lab_source_ip": "192.0.2.10",
+      "event_type": "process_start",
+      "integration": "homelab",
+      "lab_run_id": "20261005T153655Z-8ac00d3e",
+      "lab_user": "student",
+      "correlation_key": "20261005T153655Z-8ac00d3e:192.0.2.10",
+      "event_time": "2026-10-05T15:36:55.763458+00:00",
+      "lab_command": "powershell.exe -EncodedCommand VwByAGkAdABlAC0ASABvAHMAdAAgACcATABBAEIAJwA="
+    },
+    "rule": {
+      "firedtimes": 2,
+      "mail": false,
+      "level": 10,
+      "description": "LAB: Encoded PowerShell command observed in a synthetic event.",
+      "groups": [
+        "homelab",
+        "execution"
+      ],
+      "mitre": {
+        "technique": [
+          "PowerShell"
+        ],
+        "id": [
+          "T1059.001"
+        ],
+        "tactic": [
+          "Execution"
+        ]
+      },
+      "id": "100104"
+    },
+    "decoder": {
+      "name": "json"
+    },
+    "full_log": "{\"integration\":\"homelab\",\"lab_run_id\":\"20261005T153655Z-8ac00d3e\",\"synthetic\":true,\"lab_source_ip\":\"192.0.2.10\",\"lab_user\":\"student\",\"event_time\":\"2026-10-05T15:36:55.763458+00:00\",\"correlation_key\":\"20261005T153655Z-8ac00d3e:192.0.2.10\",\"event_type\":\"process_start\",\"lab_command\":\"powershell.exe -EncodedCommand VwByAGkAdABlAC0ASABvAHMAdAAgACcATABBAEIAJwA=\"}",
+    "input": {
+      "type": "log"
+    },
+    "@timestamp": "2026-10-05T15:37:11.598Z",
+    "location": "/lab/logs/events.json",
+    "id": "1791214631.720458",
+    "timestamp": "2026-10-05T15:37:11.598+0000"
+  },
+  {
+    "agent": {
+      "ip": "172.20.0.4",
+      "name": "lab-linux",
+      "id": "001"
+    },
+    "manager": {
+      "name": "wazuh.manager"
+    },
+    "data": {
+      "synthetic": "true",
+      "lab_source_ip": "192.0.2.10",
+      "sequence": "8",
+      "event_type": "auth_failure",
+      "integration": "homelab",
+      "lab_run_id": "20261005T153655Z-8ac00d3e",
+      "lab_user": "student",
+      "correlation_key": "20261005T153655Z-8ac00d3e:192.0.2.10",
+      "event_time": "2026-10-05T15:36:55.763458+00:00"
+    },
+    "rule": {
+      "firedtimes": 14,
+      "mail": false,
+      "level": 5,
+      "description": "LAB: Failed login for student from 192.0.2.10.",
+      "groups": [
+        "homelab",
+        "authentication_failed"
+      ],
+      "id": "100101"
+    },
+    "decoder": {
+      "name": "json"
+    },
+    "full_log": "{\"integration\":\"homelab\",\"lab_run_id\":\"20261005T153655Z-8ac00d3e\",\"synthetic\":true,\"lab_source_ip\":\"192.0.2.10\",\"lab_user\":\"student\",\"event_time\":\"2026-10-05T15:36:55.763458+00:00\",\"correlation_key\":\"20261005T153655Z-8ac00d3e:192.0.2.10\",\"event_type\":\"auth_failure\",\"sequence\":8}",
+    "input": {
+      "type": "log"
+    },
+    "@timestamp": "2026-10-05T15:37:11.598Z",
+    "location": "/lab/logs/events.json",
+    "id": "1791214631.718235",
+    "timestamp": "2026-10-05T15:37:11.598+0000"
+  },
+  {
+    "agent": {
+      "ip": "172.20.0.4",
+      "name": "lab-linux",
+      "id": "001"
+    },
+    "manager": {
+      "name": "wazuh.manager"
+    },
+    "data": {
+      "synthetic": "true",
+      "lab_source_ip": "192.0.2.10",
+      "event_type": "auth_success",
+      "integration": "homelab",
+      "lab_run_id": "20261005T153655Z-8ac00d3e",
+      "lab_user": "root",
+      "correlation_key": "20261005T153655Z-8ac00d3e:192.0.2.10",
+      "event_time": "2026-10-05T15:36:55.763458+00:00"
+    },
+    "rule": {
+      "firedtimes": 2,
+      "mail": false,
+      "level": 7,
+      "description": "LAB: Successful privileged login from 192.0.2.10.",
+      "groups": [
+        "homelab",
+        "authentication_success"
+      ],
+      "mitre": {
+        "technique": [
+          "Valid Accounts"
+        ],
+        "id": [
+          "T1078"
+        ],
+        "tactic": [
+          "Defense Evasion",
+          "Persistence",
+          "Privilege Escalation",
+          "Initial Access"
+        ]
+      },
+      "id": "100103"
+    },
+    "decoder": {
+      "name": "json"
+    },
+    "full_log": "{\"integration\":\"homelab\",\"lab_run_id\":\"20261005T153655Z-8ac00d3e\",\"synthetic\":true,\"lab_source_ip\":\"192.0.2.10\",\"lab_user\":\"root\",\"event_time\":\"2026-10-05T15:36:55.763458+00:00\",\"correlation_key\":\"20261005T153655Z-8ac00d3e:192.0.2.10\",\"event_type\":\"auth_success\"}",
+    "input": {
+      "type": "log"
+    },
+    "@timestamp": "2026-10-05T15:37:11.598Z",
+    "location": "/lab/logs/events.json",
+    "id": "1791214631.719753",
+    "timestamp": "2026-10-05T15:37:11.598+0000"
+  },
+  {
+    "syscheck": {
+      "uname_after": "root",
+      "mtime_after": "2026-10-05T15:37:18",
+      "size_after": "43",
+      "gid_after": "0",
+      "mode": "realtime",
+      "path": "/lab/monitored/20261005T153655Z-8ac00d3e.txt",
+      "sha1_after": "8edd8a27860622fed9a332df348778816368dcc0",
+      "gname_after": "root",
+      "uid_after": "0",
+      "perm_after": "rw-r--r--",
+      "event": "added",
+      "md5_after": "c3ffa751bbd7a398f2d2c48644adf1d4",
+      "sha256_after": "e535b7121aa4038e085121c5b4d28807829b9d0a2deed085f51535b9cea1f97f",
+      "inode_after": 678800
+    },
+    "agent": {
+      "ip": "172.20.0.4",
+      "name": "lab-linux",
+      "id": "001"
+    },
+    "manager": {
+      "name": "wazuh.manager"
+    },
+    "rule": {
+      "firedtimes": 1,
+      "mail": false,
+      "level": 5,
+      "pci_dss": [
+        "11.5"
+      ],
+      "hipaa": [
+        "164.312.c.1",
+        "164.312.c.2"
+      ],
+      "tsc": [
+        "PI1.4",
+        "PI1.5",
+        "CC6.1",
+        "CC6.8",
+        "CC7.2",
+        "CC7.3"
+      ],
+      "description": "File added to the system.",
+      "groups": [
+        "ossec",
+        "syscheck",
+        "syscheck_entry_added",
+        "syscheck_file"
+      ],
+      "id": "554",
+      "nist_800_53": [
+        "SI.7"
+      ],
+      "gpg13": [
+        "4.11"
+      ],
+      "gdpr": [
+        "II_5.1.f"
+      ]
+    },
+    "decoder": {
+      "name": "syscheck_new_entry"
+    },
+    "full_log": "File '/lab/monitored/20261005T153655Z-8ac00d3e.txt' added\nMode: realtime\n",
+    "input": {
+      "type": "log"
+    },
+    "@timestamp": "2026-10-05T15:37:18.980Z",
+    "location": "syscheck",
+    "id": "1791214638.721353",
+    "timestamp": "2026-10-05T15:37:18.980+0000"
+  },
+  {
+    "syscheck": {
+      "uname_after": "root",
+      "mtime_after": "2026-10-05T15:37:32",
+      "size_after": "43",
+      "gid_after": "0",
+      "md5_before": "c3ffa751bbd7a398f2d2c48644adf1d4",
+      "sha256_before": "e535b7121aa4038e085121c5b4d28807829b9d0a2deed085f51535b9cea1f97f",
+      "mtime_before": "2026-10-05T15:37:18",
+      "mode": "realtime",
+      "path": "/lab/monitored/20261005T153655Z-8ac00d3e.txt",
+      "sha1_after": "650b778d92595f07046da48cbba0c0915e5b0777",
+      "changed_attributes": [
+        "mtime",
+        "md5",
+        "sha1",
+        "sha256"
+      ],
+      "gname_after": "root",
+      "uid_after": "0",
+      "perm_after": "rw-r--r--",
+      "event": "modified",
+      "md5_after": "21c8f3111dabce967116e0e5a71f5ed3",
+      "sha1_before": "8edd8a27860622fed9a332df348778816368dcc0",
+      "sha256_after": "44e1d1bba100ed2506c034241d4cc6ae061e243ce7a1452b8e4ef4cd4c0e0e7d",
+      "inode_after": 678800
+    },
+    "agent": {
+      "ip": "172.20.0.4",
+      "name": "lab-linux",
+      "id": "001"
+    },
+    "manager": {
+      "name": "wazuh.manager"
+    },
+    "rule": {
+      "mail": false,
+      "level": 7,
+      "pci_dss": [
+        "11.5"
+      ],
+      "hipaa": [
+        "164.312.c.1",
+        "164.312.c.2"
+      ],
+      "tsc": [
+        "PI1.4",
+        "PI1.5",
+        "CC6.1",
+        "CC6.8",
+        "CC7.2",
+        "CC7.3"
+      ],
+      "description": "Integrity checksum changed.",
+      "groups": [
+        "ossec",
+        "syscheck",
+        "syscheck_entry_modified",
+        "syscheck_file"
+      ],
+      "nist_800_53": [
+        "SI.7"
+      ],
+      "gdpr": [
+        "II_5.1.f"
+      ],
+      "firedtimes": 1,
+      "mitre": {
+        "technique": [
+          "Stored Data Manipulation"
+        ],
+        "id": [
+          "T1565.001"
+        ],
+        "tactic": [
+          "Impact"
+        ]
+      },
+      "id": "550",
+      "gpg13": [
+        "4.11"
+      ]
+    },
+    "decoder": {
+      "name": "syscheck_integrity_changed"
+    },
+    "full_log": "File '/lab/monitored/20261005T153655Z-8ac00d3e.txt' modified\nMode: realtime\nChanged attributes: mtime,md5,sha1,sha256\nOld modification time was: '1791214638', now it is '1791214652'\nOld md5sum was: 'c3ffa751bbd7a398f2d2c48644adf1d4'\nNew md5sum is : '21c8f3111dabce967116e0e5a71f5ed3'\nOld sha1sum was: '8edd8a27860622fed9a332df348778816368dcc0'\nNew sha1sum is : '650b778d92595f07046da48cbba0c0915e5b0777'\nOld sha256sum was: 'e535b7121aa4038e085121c5b4d28807829b9d0a2deed085f51535b9cea1f97f'\nNew sha256sum is : '44e1d1bba100ed2506c034241d4cc6ae061e243ce7a1452b8e4ef4cd4c0e0e7d'\n",
+    "input": {
+      "type": "log"
+    },
+    "@timestamp": "2026-10-05T15:37:32.746Z",
+    "location": "syscheck",
+    "id": "1791214652.722063",
+    "timestamp": "2026-10-05T15:37:32.746+0000"
+  },
+  {
+    "syscheck": {
+      "uname_after": "root",
+      "mtime_after": "2026-10-05T15:37:32",
+      "size_after": "43",
+      "gid_after": "0",
+      "mode": "realtime",
+      "path": "/lab/monitored/20261005T153655Z-8ac00d3e.txt",
+      "sha1_after": "650b778d92595f07046da48cbba0c0915e5b0777",
+      "gname_after": "root",
+      "uid_after": "0",
+      "perm_after": "rw-r--r--",
+      "event": "deleted",
+      "md5_after": "21c8f3111dabce967116e0e5a71f5ed3",
+      "sha256_after": "44e1d1bba100ed2506c034241d4cc6ae061e243ce7a1452b8e4ef4cd4c0e0e7d",
+      "inode_after": 678800
+    },
+    "agent": {
+      "ip": "172.20.0.4",
+      "name": "lab-linux",
+      "id": "001"
+    },
+    "manager": {
+      "name": "wazuh.manager"
+    },
+    "rule": {
+      "mail": false,
+      "level": 7,
+      "pci_dss": [
+        "11.5"
+      ],
+      "hipaa": [
+        "164.312.c.1",
+        "164.312.c.2"
+      ],
+      "tsc": [
+        "PI1.4",
+        "PI1.5",
+        "CC6.1",
+        "CC6.8",
+        "CC7.2",
+        "CC7.3"
+      ],
+      "description": "File deleted.",
+      "groups": [
+        "ossec",
+        "syscheck",
+        "syscheck_entry_deleted",
+        "syscheck_file"
+      ],
+      "nist_800_53": [
+        "SI.7"
+      ],
+      "gdpr": [
+        "II_5.1.f"
+      ],
+      "firedtimes": 1,
+      "mitre": {
+        "technique": [
+          "File Deletion",
+          "Data Destruction"
+        ],
+        "id": [
+          "T1070.004",
+          "T1485"
+        ],
+        "tactic": [
+          "Defense Evasion",
+          "Impact"
+        ]
+      },
+      "id": "553",
+      "gpg13": [
+        "4.11"
+      ]
+    },
+    "decoder": {
+      "name": "syscheck_deleted"
+    },
+    "full_log": "File '/lab/monitored/20261005T153655Z-8ac00d3e.txt' deleted\nMode: realtime\n",
+    "input": {
+      "type": "log"
+    },
+    "@timestamp": "2026-10-05T15:37:46.196Z",
+    "location": "syscheck",
+    "id": "1791214666.723281",
+    "timestamp": "2026-10-05T15:37:46.196+0000"
+  }
+]

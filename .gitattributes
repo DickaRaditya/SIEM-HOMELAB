@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+# Keep vendored bytes unchanged: manifest.json verifies their upstream SHA-256.
+vendor/wazuh/** -text
+vendor/wazuh/manifest.json text eol=lf

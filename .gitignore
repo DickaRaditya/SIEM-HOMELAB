@@ -1,0 +1,8 @@
+.env
+runtime/
+.cache/
+evidence/runs/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
