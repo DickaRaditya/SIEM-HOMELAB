@@ -9,8 +9,9 @@ This project incorporates and adapts Wazuh Docker configuration from Wazuh Inc.
 - Per-file SHA-256: `vendor/wazuh/manifest.json`
 - Upstream license: `vendor/wazuh/LICENSE` (GNU GPL v2)
 
-`compose.yml`, `generate-certs.yml`, and the generated runtime configuration are
-adapted from these files. Changes include loopback-only dashboard publishing,
+`compose.yml` and `generate-certs.yml` are adapted from the corresponding files
+in that upstream commit. Runtime configuration uses the retained upstream
+templates. Changes include loopback-only dashboard publishing,
 generated credentials, a bundled endpoint, health checks, enrollment password,
 custom rules, and disabling the manager's vulnerability feed for the baseline.
 
@@ -20,9 +21,11 @@ certificate-generation script during setup; setup is not an offline build.
 
 All four Wazuh images are pinned to version `4.14.8`, not immutable OCI digests.
 Version pins reduce accidental drift but do not promise bit-for-bit builds.
-Record image digests (`docker image inspect`) if your portfolio needs that level
+Record image digests (`docker image inspect`) when a deployment requires that level
 of provenance. Images and their bundled third-party software retain their own
 licenses. The source project is distributed under GPL-2.0; see `LICENSE`.
 
-`scripts/fetch_upstream.py` is a maintainer utility to retrieve this same commit.
-Normal setup verifies bundled file checksums and does not need GitHub access.
+Only configuration consumed by setup/certificate generation, its checksum manifest
+and the upstream license are bundled. Unused example deployments, the example
+agent configuration and the demo user database are omitted. Setup generates its
+own user database and verifies retained upstream files without GitHub access.

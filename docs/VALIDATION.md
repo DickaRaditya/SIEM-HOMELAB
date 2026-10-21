@@ -48,9 +48,9 @@ browser sign-in and screenshots remain manual: the automated browser stopped at
 the private-CA certificate warning. Open `https://localhost:8443` in your browser
 and review/accept that local lab warning yourself before logging in.
 
-The lab is left running. Use `python scripts/lab.py stop` to release its running
-resources while preserving data. These results describe this run, not future
-availability or a claim that every optional extension was tested.
+These results describe the recorded run, not current service availability or a
+claim that every optional extension was tested. Operational commands are in the
+[operations guide](OPERATIONS.md).
 
 To rerun the source-only regression suite:
 

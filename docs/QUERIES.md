@@ -22,7 +22,7 @@ Suggested Discover columns: `timestamp`, `agent.name`, `rule.id`, `rule.level`,
 `rule.description`, `data.lab_source_ip`, `data.lab_user`, `data.lab_run_id`.
 For FIM, add `syscheck.path` and `syscheck.event`.
 
-Create your own saved visualizations for the portfolio:
+Useful saved visualizations:
 
 1. Alert count by `rule.id` (bar chart).
 2. Alert timeline (date histogram on `timestamp`).
